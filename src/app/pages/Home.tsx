@@ -2,21 +2,23 @@ import { Link } from 'react-router';
 import { Sparkles, Star, ShoppingBag } from 'lucide-react';
 import { products } from '../data/products';
 import { ProductCard } from '../components/ProductCard';
+// Import your hero background image
+import heroBg from '../../assets/hero-bg.png'; 
 
 export function Home() {
   const featuredProducts = products.slice(0, 8);
 
   return (
     <div>
-      <section className="relative h-[600px] bg-gradient-to-br from-purple-900 via-pink-800 to-red-900 overflow-hidden">
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute top-10 left-10 w-32 h-32 bg-yellow-400 rounded-full blur-3xl animate-pulse" />
-          <div className="absolute top-40 right-20 w-40 h-40 bg-red-500 rounded-full blur-3xl animate-pulse delay-150" />
-          <div className="absolute bottom-20 left-1/3 w-36 h-36 bg-orange-500 rounded-full blur-3xl animate-pulse delay-300" />
-          <div className="absolute top-1/2 right-1/4 w-44 h-44 bg-pink-500 rounded-full blur-3xl animate-pulse delay-500" />
-          <div className="absolute bottom-32 right-10 w-28 h-28 bg-yellow-500 rounded-full blur-3xl animate-pulse delay-700" />
-        </div>
-
+      {/* Hero Section with Background Image */}
+      <section 
+        className="relative h-[600px] bg-cover bg-center bg-no-repeat overflow-hidden"
+        style={{ backgroundImage: `url(${heroBg})` }}
+      >
+        {/* Dark Overlay to make text readable */}
+        <div className="absolute inset-0 bg-black/50" />
+        
+        {/* Subtle gradient bottom fade */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
 
         <div className="relative container mx-auto px-4 h-full flex items-center">
@@ -54,6 +56,7 @@ export function Home() {
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-gray-50 to-transparent" />
       </section>
 
+      {/* Featured Products Section */}
       <section className="container mx-auto px-4 py-20">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
@@ -80,6 +83,7 @@ export function Home() {
         </div>
       </section>
 
+      {/* Brands Section */}
       <section className="bg-white py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -106,6 +110,7 @@ export function Home() {
         </div>
       </section>
 
+      {/* CTA Section */}
       <section className="container mx-auto px-4 py-20">
         <div className="bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500 rounded-2xl p-12 text-center text-white shadow-2xl">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">

@@ -2,7 +2,7 @@ import { Link, useLocation } from 'react-router';
 import { ShoppingCart, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { useCart } from '../context/CartContext';
-import logo from 'figma:asset/5a45ba1983640a7a15f4766cdcb7fddc208543ec.png';
+import logo from '../../assets/logo.png';
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
