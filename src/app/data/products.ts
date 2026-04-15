@@ -37,7 +37,23 @@ import thirtycmsparkler from '../../assets/30cm-sparkler.png';
 import sevencmsparkler from '../../assets/7cm-sparkler.png';
 import coloursparkler from '../../assets/colour-sparkler.png';
 import umberallasparkler from '../../assets/umberalla-sparkler.png';
-
+import spinnerspecial from '../../assets/spinner-special.png';
+import chakkarbig from '../../assets/chakkar-big.png';
+import giantwheels from '../../assets/giant-wheel.png';
+import spinnerdeluxe from '../../assets/spinner-delxue.png';
+import spinnerspecialbox from '../../assets/spinner-special-box.png';
+import spinnerxl from '../../assets/spinner-xl.png';
+import superchakkarsdeluxe from '../../assets/super-chakkars-deluxe.png';
+import wirechakkarfireworks from '../../assets/Wire-Chakkar-fireworks-with-sparklers.png';
+import twelvestep from '../../assets/12-step.png';
+import fourinchpipe from '../../assets/4-inch-pipe.png';
+import fiveinchpipe from '../../assets/5-inch-pipe.png';
+import doubleball from '../../assets/double-ball-3.5-pipe.png';
+import tenthousandmm from '../../assets/10k.png';
+import thousandmm from '../../assets/1k.png';
+import twothousandmm from '../../assets/2k.png';
+import fivethousandmm from '../../assets/5k.png';
+import thousandspecial from '../../assets/1k-special.png';
 export interface Product {
   id: string;
   name: string;
@@ -103,5 +119,30 @@ export const products: Product[] = [
   
   //Row 10
   { id: '37', name: 'Colour Sparkler', price: 3500, category: 'Sparklers', image: coloursparkler},   
-  { id: '38', name: 'Umberalla Sparkler', price: 3500, category: 'Sparklers', image: umberallasparkler},     
+  { id: '38', name: 'Umberalla Sparkler', price: 3500, category: 'Sparklers', image: umberallasparkler},
+  { id: '39', name: 'Spinner Special', price: 3500, category: 'Spinners', image: spinnerspecial},
+  { id: '40', name: 'Chakkar Big', price: 3500, category: 'Spinners', image: chakkarbig}, 
+  
+  //Row 11
+  { id: '41', name: 'Giant Wheels', price: 3500, category: 'Spinners', image: giantwheels},
+  { id: '42', name: 'Spinner Deluxe', price: 3500, category: 'Spinners', image: spinnerdeluxe}, 
+  { id: '43', name: 'Spinner Special Box', price: 3500, category: 'Spinners', image: spinnerspecialbox},
+  { id: '44', name: 'Spinner XL', price: 3500, category: 'Spinners', image: spinnerxl},
+  
+  //Row 12
+  { id: '45', name: 'Super Chakkars Deluxe', price: 3500, category: 'Spinners', image: superchakkarsdeluxe},
+  { id: '46', name: 'Wire Chakkar Fireworks With Sparklers', price: 3500, category: 'Spinners', image: wirechakkarfireworks},
+  { id: '47', name: '12 Step multi Colour Shots', price: 1800, category: 'Fancy', image: twelvestep }, 
+  { id: '48', name: '4 Inch Pipe Fireworks', price: 1800, category: 'Fancy', image: fourinchpipe }, 
+  
+  //Row 13
+  { id: '49', name: '5 Inch Pipe Fireworks', price: 1800, category: 'Fancy', image: fiveinchpipe},
+  { id: '50', name: 'Double Ball 2 Step Series', price: 1800, category: 'Fancy', image: doubleball },
+  { id: '51', name: '10000 mm', price: 650, category: 'Sound', image: tenthousandmm},
+  { id: '52', name: '1000 special', price: 650, category: 'Sound', image: thousandspecial },
+
+  //Row 14
+  { id: '53', name: '2000 mm', price: 650, category: 'Sound', image: twothousandmm},
+  { id: '54', name: '5000 mm', price: 650, category: 'Sound', image: fivethousandmm },
+  { id: '55', name: '1000 mm', price: 650, category: 'Sound', image: thousandmm},
 ];
