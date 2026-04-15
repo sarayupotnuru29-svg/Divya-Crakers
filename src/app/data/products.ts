@@ -88,7 +88,7 @@ export const products: Product[] = [
   { id: '16', name: 'IPL Setout', price: 2500, category: 'Setouts', image: IplSetout },
 
   // Row 5
-  { id: '17', name: 'Kids Special', price: 350, category: 'Kids', image: KidsSpecial },
+  // { id: '17', name: 'Kids Special', price: 350, category: 'Kids', image: KidsSpecial },
   { id: '18', name: 'Luna Rocket', price: 120, category: 'Rockets', image: LunaRocket },
   { id: '19', name: 'Man Pasand 25 Shots', price: 500, category: 'Fancy', image: ManPasand },
   { id: '20', name: 'Naruto 30 Shots', price: 650, category: 'Shots', image: Naruto30Shots },
@@ -138,11 +138,11 @@ export const products: Product[] = [
   //Row 13
   { id: '49', name: '5 Inch Pipe Fireworks', price: 1800, category: 'Fancy', image: fiveinchpipe},
   { id: '50', name: 'Double Ball 2 Step Series', price: 1800, category: 'Fancy', image: doubleball },
-  { id: '51', name: '10000 mm', price: 650, category: 'Sound', image: tenthousandmm},
+  { id: '55', name: '1000 mm', price: 650, category: 'Sound', image: thousandmm},
   { id: '52', name: '1000 special', price: 650, category: 'Sound', image: thousandspecial },
 
   //Row 14
   { id: '53', name: '2000 mm', price: 650, category: 'Sound', image: twothousandmm},
   { id: '54', name: '5000 mm', price: 650, category: 'Sound', image: fivethousandmm },
-  { id: '55', name: '1000 mm', price: 650, category: 'Sound', image: thousandmm},
+  { id: '51', name: '10000 mm', price: 650, category: 'Sound', image: tenthousandmm},
 ];
