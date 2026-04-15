@@ -83,7 +83,7 @@ export const products: Product[] = [
 
   // Row 4
   { id: '13', name: 'Flower Pots', price: 250, category: 'Flower Pots', image: FlowerPots },
-  { id: '14', name: 'Fountains', price: 300, category: 'Fountains', image: Fountains },
+  // { id: '14', name: 'Fountains', price: 300, category: 'Fountains', image: Fountains },
   { id: '15', name: 'Hand Shots', price: 180, category: 'Hand Items', image: HandShots },
   { id: '16', name: 'IPL Setout', price: 2500, category: 'Setouts', image: IplSetout },
 
@@ -95,15 +95,15 @@ export const products: Product[] = [
 
   // Row 6
   { id: '21', name: 'Peacock 30 Shots', price: 700, category: 'Fancy', image: Peacock30 },
-  { id: '22', name: 'Pencils', price: 80, category: 'Kids', image: Pencils },
-  { id: '23', name: 'Premium Fancy', price: 2200, category: 'Fancy', image: PremiumFancy },
+  // { id: '22', name: 'Pencils', price: 80, category: 'Kids', image: Pencils },
+  // { id: '23', name: 'Premium Fancy', price: 2200, category: 'Fancy', image: PremiumFancy },
   { id: '24', name: 'Rockets Category', price: 400, category: 'Rockets', image: RocketsCategory },
 
   // Row 7
   { id: '25', name: 'Show Time', price: 3500, category: 'Premium', image: ShowTime },
-  { id: '26', name: 'Sound Crackers', price: 550, category: 'Sound', image: SoundCrackers },
-  { id: '27', name: 'Sparklers', price: 100, category: 'Sparklers', image: Sparklers },
-  { id: '28', name: 'Spinners', price: 150, category: 'Spinners', image: Spinners },
+  // { id: '26', name: 'Sound Crackers', price: 550, category: 'Sound', image: SoundCrackers },
+  // { id: '27', name: 'Sparklers', price: 100, category: 'Sparklers', image: Sparklers },
+  // { id: '28', name: 'Spinners', price: 150, category: 'Spinners', image: Spinners },
 
   // Row 8
   { id: '29', name: 'Big Bang Racing Colours', price: 3500, category: 'Fountains', image: BigBang },
